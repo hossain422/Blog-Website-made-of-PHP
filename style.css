@@ -1,0 +1,259 @@
+body{
+    background-image: url(img/bg.png);
+    background-repeat: repeat;
+    width: 100%;
+}
+
+header{
+    background: #ca932f;
+}
+.logo_img{
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.logo_img img{
+    width: 60px;
+}
+
+.logo_title{
+    color: #fff;
+}
+.logo_title a{
+    color: #fff;
+    margin-top: 10px;
+    text-decoration: none;
+}
+.logo_title a:hover{
+    color: #fff;
+}
+.social{
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-left: 62%;
+}
+.social .fa{
+    background: rgba(138, 136, 136, 0.808);
+    padding: 7px;
+    color: #fff;
+    
+}
+.social .fa:hover{
+    background: #fff;
+    color: #000;
+}
+.search{
+    margin-left: 28%;
+    margin-bottom: 10px;
+}
+.search input[type="text"]{
+    background: #FFE07C;
+    outline: none;
+    padding-left: 5px;
+    border: 1px solid #fff;
+}
+.search input[type="submit"]{
+    background: #fff;
+    color: #dd9308;
+    padding: 5px;
+    border: 1px solid #fff;
+    margin-left: 2px;
+}
+.search input[type="submit"]:hover{
+    color: #000;
+    transition: 1s;
+    background: #FFE07C;
+
+}
+.navbar{
+    background: #e6af4b;
+    min-height: 38px;
+    padding-top: 0;
+}
+.navbar-nav .nav-item{
+    border-left: 1px solid #fff;
+}
+.navbar-nav .nav-item:hover{
+    background: rgb(255, 255, 255);
+    color: #000;
+}
+.navbar-nav .nav-item .nav-link{
+    color: #fff;
+}
+
+
+.slidersection {
+    width: 100%;
+    background-image:url(img/welpaper.jpg) ;
+    padding-left: 7%;
+}
+.slidersection slider{
+    margin-left: 7%;
+}
+.body{
+    background: #fff;
+    padding: 10px;
+    border: 1px solid #ca932f;
+
+}
+.post_list{
+    background: #fef4e5;
+    padding: 10px;
+    border: 1px solid #e6af4b;
+}
+.post_item a{
+    text-decoration: none;
+}
+.post_item a h3{
+    color: #ac7511;
+    border-bottom: 2px solid rgb(165, 163, 163);
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+}
+.list_img{
+    background: #fff;
+    padding: 5px;
+    border: 1px solid #ac7511;
+}
+.list_img img{
+    max-width: 205px;
+}
+.single_img img{
+    max-width: 405px;
+}
+
+.post_item .btn{
+    border: 1px solid #ca932f;
+    background: #fff;
+    margin-left: 75%;
+    padding: 5px;
+}
+.sidebar{
+    background: #fef4e5;
+    padding: 10px;
+    border: 1px solid #e6af4b;
+}
+.category h4{
+    background: #e6af4b;
+    padding: 7px;
+}
+.category ul li{
+    list-style: none;
+    border-bottom: 1px dotted #dd9308;
+    margin-left: -30px;
+}
+.category ul li a{
+    text-decoration: none;
+    color: #ca932f;
+}
+.latest_post h4{
+    background: #e6af4b;
+    padding: 7px;
+}
+.latest_post .list_img img{
+    max-width: 80px;
+}
+.latest_post .post_item a h5{
+    color: #ac7511;
+    border-bottom: 1px dotted rgb(165, 163, 163);
+    margin-bottom: 5px;
+    padding-bottom: 7px;
+}
+
+footer{
+    background: #e6af4b;
+    padding: 10px;
+    border: 1px solid #e6af4b;
+    text-align: center;
+}
+footer ul{
+    display: inline-flex;
+    margin-bottom: 0;
+}
+footer ul li{
+    list-style: none;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+footer ul li a{
+    color: #000;
+}
+.post_details .post_img{
+    float: left;
+}
+.post_details .img_dis{
+    float: right;
+}
+.related_post h4{
+    background: #e6af4b;
+    padding: 7px;
+}
+.related_post img{
+    width: 180px;
+}
+.related_post_1{
+    border: 1px solid #dd9308;
+    padding: 7px;
+}
+.related_post_1 a{
+    text-decoration: none;
+    color: #e6af4b;
+}
+.about_title{
+    color: #ac7511;
+    border-bottom: 2px solid rgb(173, 171, 171);
+    padding-bottom: 10px;
+}
+.contact{
+    background: #fff;
+    padding: 60px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    margin-top: 30px;
+    box-shadow: 1px 1px 4px 1px rgb(59, 59, 59);
+}
+.contact form input{
+    background: #fef4e5;
+    display: block;
+    width: 330px;
+    height: 30px;
+    border: 1px solid #ca932f;
+}
+.contact form textarea{
+    background: #fef4e5;
+    display: block;
+    width: 330px;
+    height: 100px;
+    border: 1px solid #ca932f;
+}
+.contact form button{
+    border: 1px solid #FFE07C;
+    background: #dd9308;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+.contact form button:hover{
+    color: #fff;
+}
+.pagination{
+    border: 1px solid #ac7511;
+    padding: 5px;
+    margin-top: 10px;
+}
+.pagination a{
+    background: #ca932f;
+    margin-left: 3px;
+    margin-right: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 2px;
+}
+.pagination a:hover{
+    color: #000;
+}

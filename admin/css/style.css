@@ -1,0 +1,232 @@
+body{
+    background-image: linear-gradient(#2E5E79,#2E5E79);
+}
+header{
+    background: #0c3d5a;
+    padding: 3px;
+    
+}
+.logo img{
+    width: 60px;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+.logo_title a{
+    text-decoration: none;
+}
+.logo_title a h2{
+    color: #fff;
+    margin-bottom: 0;
+}
+.logo_title p{
+    color: #fff;
+    margin-bottom: 0;
+}
+.admin_logout{
+    margin-top: 20px;
+    margin-left: -60px;
+}
+.admin_logout a{
+    text-decoration: none;
+    color: #3e97ca;
+}
+.admin_logout a:hover{
+    color: #fff;
+}
+.admin_logout a .fa{
+    color: #fff;
+    font-size: 25px;
+    margin-right: 8px;
+}
+.admin_logout a span{
+    color: #3e97ca;
+    margin-left: -5px;
+    padding-right: px;
+}
+.admin_logout a p{
+    color: #fff;
+    margin-right: 7px;
+    padding-right: 7px;
+}
+.navbar{
+    background:#104564 ;
+    padding: 0;
+    margin-top: 5px;
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+
+
+.navbar .navbar-nav .nav-item .nav-link{
+    color: #fff;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.navbar .navbar-nav .nav-item .nav-link:hover{
+    color: #fff;
+    background: #012c47;
+}
+.navbar .navbar-nav .nav-item .nav-link .fa{
+    font-size: 20px;
+    margin-right: 7px;
+}
+.side_menu{
+    background: #D1DEE4;
+    height: 560px;
+    width: 200px;
+    
+}
+.side_menu ul{
+    padding: 0;
+}
+.side_menu ul li{
+    list-style: none;
+    background: #ddd;
+    border-bottom:1px solid #2E5E79;
+    border-top:1px solid #2E5E79;
+    padding: 10px;
+}
+.side_menu ul li:hover{
+    background: rgb(248, 248, 248);
+}
+.side_menu ul li .submenu{
+    display: none;
+}
+
+.side_menu ul li ul li{
+    list-style: none;
+}
+
+.side_menu ul li a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 700;
+}
+.side_menu ul li a:hover{
+    color: #000;
+}
+.side_menu ul li:hover .submenu{
+    display: block;
+    position: absolute;
+}
+.side_menu ul li .submenu{
+    margin-left: 190px;
+    margin-top: -33px;
+}
+.side_menu ul li .submenu ul li{
+    width: 200px;
+}
+.side_menu ul li .submenu ul li a{
+    padding-left: 20px;
+    padding-right: 50px;
+}
+
+footer p{
+    color: #fff;
+}
+.body_part{
+    background: #fff;
+    margin-left: -10px;
+    min-height: 560px;
+    padding-left: 10px;
+}
+.body_part h4{
+    background: #D1DEE4;
+    padding: 10px;
+    border-bottom: 1px solid #104564;
+    margin-left: -10px;
+}
+.post_body{
+    background: #fff;
+    margin-left: -10px;
+    min-height: 660px !important;
+    padding-left: 10px;
+}
+.post_body h4{
+    background: #D1DEE4;
+    padding: 10px;
+    border-bottom: 1px solid #104564;
+    margin-left: -10px;
+}
+form table tr td{
+    margin-bottom: 5px;
+}
+.inbox_table tr td a.postlist_title{
+    text-decoration: none;
+    font-weight: 600;
+    color: #000;
+}
+form table tr td input{
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+form table tr td input[type="text"]{
+    width: 500px;
+}
+form table tr td input[type="email"]{
+    width: 500px;
+}
+form table tr td input[type="password"]{
+    width: 500px;
+}
+form table tr td input[type="date"]{
+    width: 400px;
+}
+form table tr td select{
+    width: 500px;
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+form table tr td textarea{
+    margin-left: 20px;
+    margin-bottom: 5px;
+    padding: 10px;
+}
+.search_box .show{
+    float: left;
+}
+.search_box .search_inbox{
+    float: right;
+    margin-right: 5px;
+}
+.search_box .search_inbox form input[type="search"]{
+    outline: none;
+}
+
+.search_box .show select{
+    width: 80px;
+    height: 27px;
+    margin-left: 5px;
+}
+.inbox_table tr td{
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.login form{
+    background: #fff;
+    margin-top: 80px;
+    padding: 50px;
+    box-shadow: 4px 7px 0px 2px rgba(7, 131, 231, 0.815);
+    border-radius: 10px;
+    padding-bottom: 70px;
+}
+.login form h3{
+    margin-bottom: 20px;
+}
+.login form input{
+    display: block;
+    width: 250px;
+    height: 30px;
+    margin-bottom: 5px;
+}
+.login form button{
+    margin-top: 10px;
+    background: rgba(7, 131, 231, 0.815);
+    border: none;
+    color: #fff;
+    padding: 6px;
+    width: 120px;
+    border-radius: 3px;
+}
